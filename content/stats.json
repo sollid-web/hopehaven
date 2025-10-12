@@ -1,0 +1,20 @@
+{
+  "items": [
+    {
+      "label": "Children Supported",
+      "value": "120+"
+    },
+    {
+      "label": "Meals per Month",
+      "value": "3,600"
+    },
+    {
+      "label": "School Enrollments",
+      "value": "85"
+    },
+    {
+      "label": "Volunteers",
+      "value": "40+"
+    }
+  ]
+}
