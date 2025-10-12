@@ -1,0 +1,32 @@
+{
+  "children": [
+    {
+      "id": 1,
+      "name": "A.",
+      "age": 8,
+      "note": "Loves reading and playing soccer. Dreams of becoming a teacher.",
+      "photoUrl": "https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?w=400&h=400&fit=crop"
+    },
+    {
+      "id": 2,
+      "name": "B.",
+      "age": 6,
+      "note": "Enjoys painting and music. A bright and cheerful presence in our home.",
+      "photoUrl": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=400&h=400&fit=crop"
+    },
+    {
+      "id": 3,
+      "name": "C.",
+      "age": 10,
+      "note": "Excels in mathematics and science. Always curious about the world.",
+      "photoUrl": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop"
+    },
+    {
+      "id": 4,
+      "name": "D.",
+      "age": 7,
+      "note": "Loves nature and animals. Hopes to become a veterinarian someday.",
+      "photoUrl": "https://images.unsplash.com/photo-1554151228-14d9def656e4?w=400&h=400&fit=crop"
+    }
+  ]
+}
