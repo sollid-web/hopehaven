@@ -7,9 +7,13 @@ import { Heart } from 'lucide-react';
 
 const navLinks = [
   { href: '/', label: 'Home' },
+  { href: '/about', label: 'About' },
+  { href: '/programs', label: 'Programs' },
   { href: '/adoptions', label: 'Adoptions' },
   { href: '/caregivers', label: 'Caregivers' },
   { href: '/donations', label: 'Donations' },
+  { href: '/gallery', label: 'Gallery' },
+  { href: '/faq', label: 'FAQ' },
   { href: '/transparency', label: 'Transparency' },
   { href: '/contact', label: 'Contact' },
 ];

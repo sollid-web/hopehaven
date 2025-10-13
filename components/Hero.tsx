@@ -21,7 +21,7 @@ export function Hero() {
                 <Heart className="mr-2 h-5 w-5" />
                 Donate Now
               </Link>
-              <Link href="/contact" className="btn-outline">
+              <Link href="/adoptions" className="btn-outline">
                 <Mail className="mr-2 h-5 w-5" />
                 Adoption Inquiry
               </Link>

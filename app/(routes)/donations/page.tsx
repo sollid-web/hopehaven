@@ -1,4 +1,5 @@
 import { ExternalLink, Heart, DollarSign, CreditCard } from 'lucide-react';
+import { siteConfig } from '@/lib/site';
 
 export default function DonationsPage() {
   return (
@@ -23,7 +24,7 @@ export default function DonationsPage() {
               Receive instant tax receipts.
             </p>
             <a
-              href="https://www.canadahelps.org/en/"
+              href={siteConfig.donate.canadahelps}
               target="_blank"
               rel="noopener noreferrer"
               className="btn-outline w-full"
@@ -41,7 +42,7 @@ export default function DonationsPage() {
               donation goes to Hope Haven.
             </p>
             <a
-              href="https://www.paypal.com/ca/fundraiser/charity/"
+              href={siteConfig.donate.paypal}
               target="_blank"
               rel="noopener noreferrer"
               className="btn-outline w-full"
@@ -59,7 +60,7 @@ export default function DonationsPage() {
               and recurring donation options.
             </p>
             <a
-              href="https://donate.stripe.com/test_placeholder"
+              href={siteConfig.donate.stripe}
               target="_blank"
               rel="noopener noreferrer"
               className="btn-outline w-full"
