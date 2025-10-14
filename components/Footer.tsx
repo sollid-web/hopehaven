@@ -28,6 +28,7 @@ export function Footer() {
               <li><Link className="hover:text-primary" href="/policies/safeguarding">Safeguarding</Link></li>
               <li><Link className="hover:text-primary" href="/policies/terms">Terms</Link></li>
               <li><Link className="hover:text-primary" href="/visit">Visit Us</Link></li>
+              <li><Link className="hover:text-primary" href="/partners">Partners</Link></li>
             </ul>
           </div>
         </div>

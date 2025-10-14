@@ -1,0 +1,25 @@
+{
+  "partners": [
+    {
+      "id": 1,
+      "name": "Maple Leaf Foundation",
+      "url": "https://example.org",
+      "logo": "/images/partners/maple-leaf.svg",
+      "type": "Foundation"
+    },
+    {
+      "id": 2,
+      "name": "GTA Community Health",
+      "url": "https://example.org",
+      "logo": "/images/partners/gta-health.svg",
+      "type": "Community Partner"
+    },
+    {
+      "id": 3,
+      "name": "Bright Futures Education",
+      "url": "https://example.org",
+      "logo": "/images/partners/bright-futures.svg",
+      "type": "Education"
+    }
+  ]
+}

@@ -10,6 +10,7 @@ A Next.js 14 brochure website for Hope Haven Children's Home, built with no data
 - **Ethical imagery** - Uses representative photos from Unsplash/Pexels with no identifiable children
 - **Accessible design** - Clean, responsive, dark theme with good contrast
 - **Privacy-focused** - All child information is anonymized (initials only)
+- **Children listing page** - Browse anonymized profiles at `/children` sourced from `content/children.json`
 
 ## Tech Stack
 
@@ -99,6 +100,7 @@ hopehaven/
 ├── app/                        # Next.js 14 App Router
 │   ├── (routes)/              # Route groups
 │   │   ├── adoptions/         # Adoption information
+│   │   ├── children/          # Anonymized children profiles (/children)
 │   │   ├── caregivers/        # Caregiver/volunteer recruitment
 │   │   ├── contact/           # Contact form
 │   │   ├── donations/         # Donation options
@@ -138,6 +140,9 @@ This site intentionally has no database or data persistence layer. All content i
 - Child names are shown as initials only (e.g., "A.", "B.")
 - No personally identifiable information is displayed
 - Clear disclaimers on all pages with child information
+
+### Children Data Source
+The Children page reads from `content/children.json` and renders cards via `components/ChildCard.tsx`. If you update entries, keep details anonymized and use image hosts allowed in `next.config.mjs` (Unsplash/Pexels). To add another image host, update `images.remotePatterns` accordingly.
 
 ### External Services
 - **Adoptions:** Handled by accredited adoption agencies (linked via Google Forms placeholder)

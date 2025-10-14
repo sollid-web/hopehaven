@@ -1,4 +1,9 @@
 import { ExternalLink, Heart, DollarSign, CreditCard } from 'lucide-react';
+export const metadata = {
+  title: 'Donate | Hope Haven',
+  description:
+    'Support children in Canada through secure donations via CanadaHelps, PayPal Giving, or Stripe. Tax receipts provided.',
+};
 import { siteConfig } from '@/lib/site';
 
 export default function DonationsPage() {

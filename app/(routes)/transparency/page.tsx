@@ -1,4 +1,9 @@
 import { FileText, Shield, BarChart3, Lock } from 'lucide-react';
+export const metadata = {
+  title: 'Transparency & Accountability | Hope Haven',
+  description:
+    'Our commitments to impact reporting, audited financials, safeguarding, and privacy to earn your trust.',
+};
 
 export default function TransparencyPage() {
   return (

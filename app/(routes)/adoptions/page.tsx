@@ -1,4 +1,9 @@
 import Link from 'next/link';
+export const metadata = {
+  title: 'Adoptions | Hope Haven',
+  description:
+    'How to begin the adoption process in Canada with accredited agencies. We do not process applications directly.',
+};
 import { ExternalLink } from 'lucide-react';
 
 export default function AdoptionsPage() {

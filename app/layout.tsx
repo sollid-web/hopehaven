@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import '@/styles/globals.css';
+import { siteConfig } from '@/lib/site';
 import { Header } from '@/components/Header';
 import { Footer } from '@/components/Footer';
 
@@ -25,6 +26,27 @@ export default function RootLayout({
         <Header />
         <main id="main-content" className="min-h-screen">{children}</main>
         <Footer />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              '@context': 'https://schema.org',
+              '@type': 'NGO',
+              name: siteConfig.name,
+              url: siteConfig.siteUrl,
+              email: siteConfig.email,
+              telephone: siteConfig.phone,
+              address: {
+                '@type': 'PostalAddress',
+                streetAddress: siteConfig.address.street,
+                addressLocality: siteConfig.address.city,
+                addressRegion: siteConfig.address.province,
+                postalCode: siteConfig.address.postalCode,
+                addressCountry: siteConfig.address.country,
+              },
+            }),
+          }}
+        />
       </body>
     </html>
   );

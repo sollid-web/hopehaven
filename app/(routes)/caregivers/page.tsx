@@ -1,4 +1,9 @@
 import Link from 'next/link';
+export const metadata = {
+  title: 'Caregivers & Volunteers | Hope Haven',
+  description:
+    'Learn about caregiver roles, volunteer opportunities, and how you can support children at Hope Haven.',
+};
 import { ExternalLink, Heart, Users, Clock } from 'lucide-react';
 
 export default function CaregiversPage() {
@@ -71,15 +76,20 @@ export default function CaregiversPage() {
             Submit your application through our online form. We'll review your 
             information and reach out to discuss opportunities.
           </p>
-          <a
-            href="https://forms.google.com/placeholder"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="btn"
-          >
-            <ExternalLink className="mr-2 h-5 w-5" />
-            Apply Now
-          </a>
+          <div className="flex flex-col sm:flex-row gap-3 justify-center">
+            <Link href="/caregivers/volunteer" className="btn">
+              Apply to Volunteer
+            </Link>
+            <a
+              href="https://forms.google.com/placeholder"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn-outline"
+            >
+              <ExternalLink className="mr-2 h-5 w-5" />
+              External Application
+            </a>
+          </div>
         </div>
       </div>
     </div>

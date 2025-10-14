@@ -1,0 +1,22 @@
+{
+  "events": [
+    {
+      "id": 1,
+      "title": "Community Open House",
+      "date": "2025-11-08",
+      "time": "10:00 AM - 2:00 PM",
+      "location": "Hope Haven Centre, Toronto, ON",
+      "description": "Tour our facility, meet staff, and learn about our programs and volunteer opportunities.",
+      "ctaUrl": "https://forms.google.com/placeholder"
+    },
+    {
+      "id": 2,
+      "title": "Holiday Giving Drive",
+      "date": "2025-12-01",
+      "time": "All Month",
+      "location": "Drop-off locations across GTA",
+      "description": "Collecting winter clothing, school supplies, and gift cards to support children and families.",
+      "ctaUrl": "https://forms.google.com/placeholder"
+    }
+  ]
+}
